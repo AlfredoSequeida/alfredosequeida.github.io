@@ -53,42 +53,18 @@
         </div>
     </header>
 
-    <section id="media-production">
+    <section id="progams">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
 
-
-                        <a href="https://onedrive.live.com/redir?resid=3fe32febaf0f2fae!1824&authkey=!APXoTZvsroTbc8M&ithint=video%2cm4v"> 
-                                <p>Double A Productions</p></a>
-                        <p>3D animated Introduction made for Double A Productions</p>
-
-                        <a href="https://onedrive.live.com/redir?resid=3fe32febaf0f2fae!1824&authkey=!APXoTZvsroTbc8M&ithint=video%2cm4v"
-                        <center><img WIDTH="800"src="./img/double-a-productions.png"></center>
-                        </a>
+                        <p>Double A Productions<a href="http://alfredosequeida.wixsite.com/alfredosequeida/media-production">here</a> 
+                        <p>3D animated Introduction made for Double A Productions.<a href="http://alfredosequeida.wixsite.com/alfredosequeida/media-production">here</a> 
 
                     <hr class="primary">
                 </div>
             </div>
         </div>
-
-        <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-
-
-                                <a href="https://onedrive.live.com/redir?resid=3fe32febaf0f2fae!1814&authkey=!APp9pbWaKSvE9xQ&ithint=video%2cmp4"> 
-                                        <p>A New World</p></a>
-                                <p>A New World follows a troubled survivor (Torres) and his brother (Andrade) after the world as they know it is changed by a deadly virus. The brothers go through the monogamous motions this new world entails, but are given hope in the form of a girl, (Juarez) who claims she and her group were working on a cure for the virus and could potentially save the human race, or whatever is left of it.</p>
-
-                                <a href="https://onedrive.live.com/redir?resid=3fe32febaf0f2fae!1814&authkey=!APp9pbWaKSvE9xQ&ithint=video%2cmp4"
-                                <center><img WIDTH="800"src="./img/a-new-world.png"></center>
-                                </a>
-
-                            <hr class="primary">
-                        </div>
-                    </div>
-                </div>
 
      </section>
 
