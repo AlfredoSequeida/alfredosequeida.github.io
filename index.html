@@ -1,216 +1,233 @@
-<!DOCTYPE htmlm>
+<!doctype html>
+<html lang="en" class="no-js">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<html lang="en">
+                <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
+
+                <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+                <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+                <script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+                <title>Alfredo Sequeida - Software Engineer</title>
 
 
-<head>
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-<link rel="stylesheet" href="./css/github-activity-0.1.4.min.css">
+                <!--bootstrap-->
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
-<!--<script
-			  src="http://code.jquery.com/jquery-3.1.1.min.js"
-			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-              crossorigin="anonymous"></script> -->
+                <!--font awesome-->
+                <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
 
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-<script type="text/javascript" src="./js/github-activity-0.1.4.min.js"></script>
+                <!--dev fonts-->
+                <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        </head>
+        <body>
+                <nav id="cd-vertical-nav">
+                        <ul>
+                                <li>
+                                        <a href="#section1" data-number="1">
+                                                <span class="cd-dot"></span>
+                                                <span class="cd-label">Intro</span>
+                                        </a>
+                                </li>
+                                <li>
+                                        <a href="#section2" data-number="2">
+                                                <span class="cd-dot"></span>
+                                                <span class="cd-label">Skills</span>
+                                        </a>
+                                </li>
+                                <li>
+                                        <a href="#section3" data-number="3">
+                                                <span class="cd-dot"></span>
+                                                <span class="cd-label">Resume</span>
+                                        </a>
+                                </li>
+                                <li>
+                                        <a href="#section4" data-number="4">
+                                                <span class="cd-dot"></span>
+                                                <span class="cd-label">Portfolio</span>
+                                        </a>
+                                        <li>
+                                                <a href="#section5" data-number="6">
+                                                        <span class="cd-dot"></span>
+                                                        <span class="cd-label">Contact</span>
+                                                </a>
+                                        </li>
+                        </ul>
+                </nav>
+                <a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
 
-    <title>Alfredo Sequeida</title>
+                <section id="section1" class="cd-section">
+                        <div class="containerfluid text-left " style="padding-left:20px; padding-right:20px; padding-top:10%;">
+                                <div class="row align-items-start">
+                                        <div class="col">
+                                                <h1 style="font-size:80px;">
+                                                        Hi, I'm Alfredo Sequeida
+                                                        <p style="color: white;">Software Engineer</p>
+                                                        <hr>
+                                                </h1>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+                                        </div>
+                                </div>
+                                <div class="row align-items-end">
+                                        <div class="col">
+                                                <script src="./js/typed.js"></script>
+                                                <script>
+document.addEventListener('DOMContentLoaded', function(){
+        Typed.new('#typed', {
+                stringsElement: document.getElementById('intro-1')
+        });
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+});
+                                                </script>
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+                                                <div id="intro-1">
+                                                        <p>With an entrepreneur spirit and a passion and believe for open source software, I am that person that is always looking for the next big project to make come to life in order to provide others with functional solutions.<br>
+                                                        <br>
+                                                        And when I am not pursuing solutions or developing new skills, you can find me practicing Parkour or playing my guitar.
+                                                        </p>
+                                                </div>
+                                                <span id="typed"></span>
 
-    <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
+                                        </div>
+                                </div>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
-</head>
+                        </div>
 
-<body id="page-top">
+                        <a href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a>
+                </section><!-- cd-section -->
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Alfredo Sequeida</a>
-            </div>
+                <section id="section2" class="cd-section">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#what_can_i_do">What Can I do?</a>
-                    </li>
+                        <div class="container">
+                                <div class="col-10 mx-auto" style="padding-top:20%;">
+                                        <div class="row">
+                                                        <!-- java icon-->
+                                                        <img src="./img/icons/java.svg" style="width:100px;"></img>
 
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+                                                        <!--python icon-->
+                                                        <img src="./img/icons/python.svg" style="width:100px;"></img>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">Hi,</h1>
-                <hr>
-                    <img src="./img/headshot.png">
-                <p>I'm Alfredo Sequeida, Creative Engineer </p>
-                <a href="#what_can_i_do" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
-            </div>
-        </div>
-    </header>
+                                                        <!--bash icon-->
+                                                        <img src="./img/icons/terminal.svg" style="width:100px;"></img>
 
-    <section id="what_can_i_do">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">What Can I do?</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 text-center">
-                    <div class="service-box">
-                            <a href="./programming.html"
-                        <i class="fa fa-4x fa-code text-primary sr-icons"></i>
-                        <h3>Programming</h3>
-                            </a>
-                        <p class="text-muted">I have a big passion for solving problems and that is reflected through my coding</p>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="service-box">
-                            <a href="./media-production.html"
-                        <i class="fa fa-4x fa-video-camera text-primary sr-icons"></i>
-                        <h3>Media Production</h3>
-                            </a>
-                        <p class="text-muted">Ever since I was young, I always wondered how things were done in the movies, so I decided to learn</p>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="service-box">
-                            <a/ href="./other-projects.html"
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Other Projects</h3>
-                            </a>
-                        <p class="text-muted">Problems require creative solutions, creative engineers dont rest when it comes to solving those problems</p>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="service-box">
-                            <a/ href="./resume.html"
-                        <i class="fa fa-4x fa-id-card-o text-primary sr-icons"></i>
-                        <h3>Resume</h3>
-                            </a>
-                        <p class="text-muted">Check out my work history!</p>
-                    </div>
-                </div>
-        </div>
-        </div>
-    </section>
+                                                        <!--php icon-->
+                                                        <img src="./img/icons/php.svg" style="width:100px;"></img>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
+                                                        <!--html5 icon-->
+                                                        <img src="./img/icons/html5.svg" style="width:100px;"></img>
 
-                    <!--
-                    <div id="feed" style="position: relative;">
-   <div class="gha-feed">
-      <div class="gha-header">
-         <div class="gha-github-icon"><span class="octicon octicon-mark-github"></span></div>
-         <div class="gha-user-info">
-            <a class="" href="https://github.com/AlfredoSequeida" target="_blank">Alfredo Sequeida</a>
-            <p><a class="" href="https://github.com/AlfredoSequeida" target="_blank">AlfredoSequeida</a></p>
-         </div>
-         <div class="gha-gravatar"><a class="" href="https://github.com/AlfredoSequeida" target="_blank"><img src="https://avatars.githubusercontent.com/alfredosequeida.png"></a></div>
-      </div>
-      <div class="gha-push"></div>
-      <div class="gha-push-small"></div>
-      <div class="gha-footer">Public Activity <a href="https://github.com/AlfredoSequeida/github-activity" target="_blank">GitHub Activity Stream</a></div>
-   </div>
-</div>
--->
+                                                        <!--css3 icon-->
+                                                        <img src="./img/icons/css3.svg" style="width:100px;"></img>
 
-<script>
-    GitHubActivity.feed({ username: AlfredoSequeida, selector: '#feed' });
-</script>
-            </div>
-        </div>
-    </aside>
+                                                        <!--bootstrap-->
+                                                        <img src="./img/icons/bootstrap.svg" style="width:100px;"></img>
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                </div>
-                <div class="col-md-3 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>(562) 281-7446</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:alfredosequeida@outlook.com">alfredosequeida@outlook.com</a></p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <i class="fa fa-github fa-3x sr-contact"></i>
-                    <p><a href="https://github.com/AlfredoSequeida">Find me on GitHub</a></p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <i class="fa fa-linkedin fa-3x sr-contact"></i>
-                    <p><a href="https://www.linkedin.com/in/AlfredoSequeida">Add me on Linkedin</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
+                                                        <!--linux icon-->
+                                                        <img src="./img/icons/linux.svg" style="width:100px;"></img>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+                                                        <!--vim icon-->
+                                                        <img src="./img/icons/vim.svg" style="width:100px;"></img>
+                                        </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+                                                <div class="col-10 mx-auto text-center;" style="padding-top:10%;">
+                                                         <strong style="color:white; font-size:20px;">
+                                                                Java • Python • Bash • PHP • HTML • CSS • Bootstrap • Linux • Vim
+                                                        </strong>
+                                                </div>
 
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
+                                </div>
+                        </div>
+                                <div class="container">
+                </section><!-- cd-section -->
 
-</body>
+                <section id="section3" class="cd-section">
+                        <div class="container-fluid">
+                                <center>
+                                        <img src="./img/headshot.png"></img>
+                                </center>
 
+                                <div class="col mx-auto">
+                                        <script src="./js/pdfobject.js"></script>
+                                        <div id="resume"></div>
+                                        <script>PDFObject.embed("./docs/resume.pdf", "#resume");</script>
+                                </div>
+                        </div>
+                </section><!-- cd-section -->
+
+                <section id="section4" class="cd-section" style="background-color:black;">
+                        <div class="container-fluid">
+                                <div id="project-pappel" class="row">
+                                        <div class="col-6 mx-auto text-center">
+                                                <h1>Pappel</h1>
+                                                <hr>
+                                                <img src="./img/project-images/pappel/pappel_preview.png" style="width:800px;"></img>
+                                                <div class="row" style="padding-top:5%;">
+                                                        <div class="col mx-auto">
+                                                                <script>
+function openPappel() {
+        window.open("https://github.com/AlfredoSequeida/Pappel");
+}
+                                                                </script>
+                                                                <input type="button" value="Code" onclick="openPappel()">
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col text-center" style="padding-left:10%; padding-right:10%;">
+                                                        <p>An open source modular note taking platform  that I created after frustration of not being able to find any native Linux applications that fit my needs when taking notes for class rapidly and effectively. It is catered to power users and individuals alike.<br>
+                                                        Stack:
+                                                        Java, JavaScript, Bash, PhantomJS, PrismJS
+                                                        Markdown4j, DropBox API, Controlsfx
+                                                        </p>
+                                                </div>
+                                        </div>
+                                </div>
+
+                        </div>
+                </section><!-- cd-section -->
+
+                <section id="section5" class="cd-section">
+                        <div class="container-fluid text-center" style="padding-top:10%;">
+                                <h1> Have a cool project you want to share or simply want to chat?<br>
+                                        Feel free to get in touch!
+                                </h1>
+
+                                <div class="row" style="color:white; padding-top:10%;">
+                                        <div class="col">
+                                                <i class="fa fa-phone" aria-hidden="true" style="font-size:80px;"></i>
+                                                <p style="color:white;" >(562) 281-7446</p> 
+                                        </div>
+
+                                        <div class="col">
+                                                <i class="fa fa-envelope-o" aria-hidden="true" style="font-size:80px;"></i>
+                                                <p><a style="color:white;" href="mailto:AlfredoSequeida@outlook.com">AlfredoSequeida@outlook.com</a></p>
+                                        </div>
+
+                                        <div class="col">
+                                                <i class="fa fa-github" aria-hidden="true" style="font-size:80px;"></i>
+                                                <p><a style="color:white;" href="https://github.com/AlfredoSequeida">AlfredoSequeida</a></p>
+                                        </div>
+
+                                        <div class="col">
+                                                <i class="fa fa-linkedin" aria-hidden="true" style="font-size:80px;"></i>
+                                                <p><a style="color:white;" href="https://linkedin.com/in/alfredosequeida">Alfredo Sequeida</a></p>
+                                        </div>
+                                </div>
+                        </div>
+                </section><!-- cd-section -->
+
+                <script src="js/jquery-2.1.1.js"></script>
+                <script src="js/main.js"></script> <!-- Resource jQuery -->
+
+                <!--bootstrap-->
+                <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+        </body>
 </html>
