@@ -78,6 +78,7 @@ Main components
         height:500px; 
         padding-left:10%;
         padding-right:10%;
+        color:white;
 }
 .devider{
         width:20%;
@@ -118,7 +119,6 @@ Main components
         padding: 2em 0;
 }
 .cd-section:nth-of-type(odd) {
-        /*background-color: #3e3947;*/
         background-color: #389ADB;
 }
 .cd-section:nth-of-type(odd) p {

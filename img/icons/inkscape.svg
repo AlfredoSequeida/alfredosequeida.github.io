@@ -13,7 +13,7 @@
    width="390"
    height="390"
    id="svg4545"
-   sodipodi:docname="Inkscape.svg"
+   sodipodi:docname="inkscape.svg"
    inkscape:version="0.92.1 r">
   <metadata
      id="metadata4551">
@@ -37,15 +37,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="3190"
-     inkscape:window-height="1742"
+     inkscape:window-width="3200"
+     inkscape:window-height="1800"
      id="namedview4547"
      showgrid="false"
      inkscape:zoom="3.7230769"
-     inkscape:cx="195"
-     inkscape:cy="195"
+     inkscape:cx="101.93182"
+     inkscape:cy="190.56818"
      inkscape:window-x="0"
-     inkscape:window-y="48"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="inkscape-logo" />
   <g
@@ -55,12 +55,12 @@
        id="path4538"
        style="fill:#333333" />
     <path
-       fill="white"
        d="M131,238.6C134.59,240.83 188.89,251.86 202.16,254.06C206.76,255.03 203.5,259.77 197.16,262.97C182.86,266.77 113.5,238.6 131,238.6z"
-       id="path4540" />
+       id="path4540"
+       fill="white" />
     <path
-       fill="white"
        d="M216.63,37.47L269.78,91.45C274.82,96.6 274.75,106.58 271.93,109.45L245.54,88.34L240.35,119.6L218.3,107.96L182.99,130.27L171.3,83.24L152.33,116.06L123.33,116.06C111.51,116.06 110.12,101.06 120.86,90.32C139.62,70.07 161.15,49.43 172.85,37.47C184.61,25.45 205.1,25.79 216.63,37.47z"
-       id="path4542" />
+       id="path4542"
+       fill="white" />
   </g>
 </svg>
