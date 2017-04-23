@@ -96,8 +96,13 @@ document.addEventListener('DOMContentLoaded', function(){
 
 
                         </div>
+                        <script type="text/javascript">
+setTimeout(function(){
+    document.getElementById('down-image').style.display = 'block';
+},20000);
+</script>
 
-                        <a href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a>
+                        <a style="display:none;" id="down-image" href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a>
                 </section><!-- cd-section -->
 
                 <section id="section2" class="cd-section">
