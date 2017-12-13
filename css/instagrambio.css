@@ -1,7 +1,6 @@
 .square-box{
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 100%;
     overflow: hidden;
   }
 
@@ -17,7 +16,7 @@
     bottom: 0;
     right: 0;
     color: white;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .square-content div {
