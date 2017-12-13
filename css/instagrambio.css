@@ -1,8 +1,9 @@
 .square-box{
     position: relative;
     width: 100%;
-    height: 6%;
+    height: 120px;
     overflow: hidden;
+    margin-bottom: 20px;
   }
 
 .square-box:before{
