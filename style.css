@@ -21,13 +21,17 @@ body{
   padding-right: 25px;
 }
 
-#project-link{
+.project-link{
   position: absolute;
   bottom: 0;
   right: 0;
   color: white;
   font-size: 50px;
   padding: 20px;
+}
+
+i.project-link:hover{
+  color: black;
 }
 
 .description-text{
