@@ -4,12 +4,13 @@ body{
   height: 100%;
   max-width: 100%;
   overflow-x: hidden;
+  background-color: white;
 }
 
 .side-container{
   position: fixed;
   top: 25%;
-  width: 500px;
+  width: 30%;
   padding: 20px;
 }
 
