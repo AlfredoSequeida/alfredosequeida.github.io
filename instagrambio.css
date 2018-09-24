@@ -3,14 +3,14 @@ body{
 }
 
 .square{
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   margin: 0 auto;
 }
 
 .square-content{
   color: white;
-  font-size: 100px;
+  font-size: 200px;
   padding: 20px;
   top: 50%;
   left: 50%;
