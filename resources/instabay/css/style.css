@@ -1,0 +1,11 @@
+body{
+  background-color: #ffffff;
+}
+
+#description{
+  color: #212529;
+}
+
+a:hover{
+    text-decoration: none;
+}
