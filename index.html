@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Alfredo Sequeida</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-157268828-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-157268828-1");
+    </script>
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="col-lg-4 d-none d-lg-block">
+        <div class="side-container">
+          <h4 class="description-text text-left">
+            Software Developer.<br />
+            Student.<br />
+            Entrepreneur.<br />
+            Maker.<br />
+          </h4>
+          <p>I love to code and make projects come to life.</p>
+
+          <div class="social-container">
+            <a href="https://github.com/AlfredoSequeida" target="_blank"
+              ><i class="fab fa-github social-icon"></i
+            ></a>
+            <a href="https://linkedin.com/in/alfredosequeida" target="_blank"
+              ><i class="fab fa-linkedin social-icon"></i
+            ></a>
+          </div>
+
+          <a href="mailto:alfredosequeida@outlook.com"
+            ><button type="button" class="btn btn-outline-primary">
+              Say Hello!
+            </button></a
+          >
+          <a href="resources/docs/resume.pdf" target="_blank"
+            ><button type="button" class="btn btn-outline-primary">
+              Resume
+            </button></a
+          >
+
+          <p>
+            <br />
+            Tip: Click on the project names for more information. Some projects
+            have samples - look at the bottom right hand corner.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-8 col-md-12">
+        <div class="d-lg-none top-container">
+          <h4 class="description-text text-left">
+            Software Developer.<br />
+            Student.<br />
+            Entrepreneur.<br />
+            Maker.<br />
+          </h4>
+          <p>I love to code and make projects come to life.</p>
+
+          <div class="social-container">
+            <a href="https://github.com/AlfredoSequeida" target="_blank"
+              ><i class="fab fa-github social-icon"></i
+            ></a>
+            <a href="https://linkedin.com/in/alfredosequeida" target="_blank"
+              ><i class="fab fa-linkedin social-icon"></i
+            ></a>
+          </div>
+
+          <a href="mailto:alfredosequeida@outlook.com"
+            ><button type="button" class="btn btn-outline-primary">
+              Say Hello!
+            </button></a
+          >
+          <a href="resources/docs/resume.pdf" target="_blank"
+            ><button type="button" class="btn btn-outline-primary">
+              Resume
+            </button></a
+          >
+
+          <p>
+            <br />
+            Tip: Click on the project names for more information. Some projects
+            have samples - look at the bottom right hand corner.
+          </p>
+        </div>
+
+        <!--Projects-->
+
+        <!-- CALL OF DUTY NERF GUN -->
+        <div
+          class="project-container center-block"
+          id="callOfDutyNerfGun"
+          style="background-color: #ce5df1"
+        >
+          <a
+            href="https://www.raspberrypi.org/blog/play-call-of-duty-with-a-raspberry-pi-powered-nerf-gun/"
+            target="_blank"
+            style="text-decoration: none"
+          >
+            <div
+              class="mt-5 pl-2 pr-2"
+              style="
+                position: absolute;
+                display: inline-block;
+                background-color: #fff;
+                font-weight: bold;
+                color: #000;
+              "
+            >
+              Featured in the news by the Raspberry Pi Foundation
+            </div>
+          </a>
+          <div class="container mt-5">
+            <iframe
+              src="https://www.youtube.com/embed/ld0Pcy6F-3g"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="video"
+            ></iframe>
+          </div>
+          <p>
+            <a
+              class="project-button"
+              data-toggle="collapse"
+              href="#collapseNerfGun"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              Nerf Gun Call of Duty Warzone Controller
+            </a>
+          </p>
+          <div class="collapse" id="collapseNerfGun">
+            <div class="card card-body project-description">
+              <p>
+                DIY Call of Duty Warzone controller built using a nerf gun
+                powered by the Raspberry Pi 4.
+              </p>
+              <p>
+                Stack: Python, Kotlin, OpenSCAD, Bash
+                <br />
+                Libraries:
+                <a
+                  target="_blank"
+                  href="https://pypi.org/project/PyDirectInput/"
+                  >PyDirectInput</a
+                >,
+                <a target="_blank" href="https://pypi.org/project/RPi.GPIO/"
+                  >rpi.gpio</a
+                >,
+                <a
+                  target="_blank"
+                  href="https://docs.python.org/3/library/socket.html"
+                  >socket</a
+                >,
+                <a
+                  target="_blank"
+                  href="https://docs.python.org/3/library/json.html"
+                  >json</a
+                >
+                <br />
+              </p>
+            </div>
+          </div>
+
+          <a
+            href="https://github.com/AlfredoSequeida/Nerf-Gun-Call-of-Duty-Warzone-Controller"
+            target="_blank "
+            ><i class="fas fa-code project-link"></i
+          ></a>
+        </div>
+
+        <!-- Flix -->
+        <div
+          class="project-container center-block"
+          id="flix"
+          style="background-color: #21d07a"
+        >
+            <video loop autoplay class="img-responsive center-block project-image">
+              <source
+                src="./resources/videos/project-videos/flix/flix.mp4"
+                type="video/mp4"
+              />
+              <img
+                class="img-responsive center-block project-image"
+                src="./resources/images/project-images/flix/flix.png"
+              />
+            </video>
+
+          <p>
+            <a
+              class="project-button"
+              data-toggle="collapse"
+              href="#collapseFlix"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              Flix
+            </a>
+          </p>
+          <div class="collapse" id="collapseFlix">
+            <div class="card card-body project-description">
+              <p>
+                Flix is a media manager written with modern web technologies
+                that uses The Movie Database API for media information.
+              </p>
+              <p>
+                Stack: HTML, CSS, JavaScript
+                <br />
+                Libraries:
+                <a target="_blank" href="https://reactjs.org/">React</a>,
+                <a target="_blank" href="https://reactrouter.com/"
+                  >React Router</a
+                >,
+                <a target="_blank" href="https://getbootstrap.com/"
+                  >Bootstrap</a
+                >
+                <br />
+                API:
+                <a target="_blank" href="https://developers.themoviedb.org/3/"
+                  >The Movie Database</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Raker -->
+
+        <div
+          class="project-container center-block"
+          id="raker"
+          style="background-color: #6770f9"
+        >
+          <img
+            class="img-responsive center-block project-image"
+            src="./resources/images/project-images/raker/raker.png"
+          />
+
+          <p>
+            <a
+              class="project-button"
+              data-toggle="collapse"
+              href="#collapseRaker"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              Raker
+            </a>
+          </p>
+          <div class="collapse" id="collapseRaker">
+            <div class="card card-body project-description">
+              <p>
+                Never miss a good deal again - Raker automates searches for
+                local markets (Offerup, Letgo, Facebook Marketplace, Craigslist)
+                and notifies you as soon as it finds deals via Email and SMS!
+              </p>
+              <p>
+                Stack: HTML, CSS, JavaScript, Python
+                <br />
+                Frameworks:
+                <a target="_blank" href="https://www.djangoproject.com/"
+                  >Django</a
+                >
+                <br />
+                Libraries:
+                <a target="_blank" href="https://www.selenium.dev/">Selenium</a
+                >,
+                <a target="_blank" href="https://getbootstrap.com/"
+                  >Bootstrap</a
+                >
+                <br />
+                Other:
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Cron"
+                  >Cron</a
+                >,
+                <a target="_blank" href="https://httpd.apache.org/">Apache</a>,
+                <a
+                  target="_blank"
+                  href="https://en.wikipedia.org/wiki/Uncomplicated_Firewall"
+                  >UFW</a
+                >,
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Linux"
+                  >Linux</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sellphone -->
+
+        <div
+          class="project-container center-block"
+          id="sellphone"
+          style="background-color: #b4ddbf"
+        >
+          <video
+            loop
+            autoplay
+            class="img-responsive center-block project-image"
+          >
+            <source
+              src="./resources/videos/project-videos/sellphone/sellphone.mp4"
+              type="video/mp4"
+            />
+            <img
+              class="img-responsive center-block project-image"
+              src="./resources/images/project-images/sellphone/sellphone.png"
+            />
+          </video>
+
+          <a href="https://www.sellphone.io" target="_blank"
+            ><i class="fas fa-link project-link"></i
+          ></a>
+
+          <p>
+            <a
+              class="project-button"
+              data-toggle="collapse"
+              href="#collapseSellphone"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              Sellphone
+            </a>
+          </p>
+          <div class="collapse" id="collapseSellphone">
+            <div class="card card-body project-description">
+              <p>
+                Sellphone is a website that I made that allows people to sell
+                their old phones. It is an on demand pickup service covering Los
+                Angeles County, Orange County, and the Inland Empire. It was
+                created as a way for me to lean both the making of a full
+                fledged website with both a fronted and back end system as well
+                as a way for me to learn more about how a business handles
+                customer service as as well as expansion.
+              </p>
+              <p>
+                Stack: HTML, CSS, JavaScript, Python
+                <br />
+                Frameworks:
+                <a target="_blank" href="https://www.djangoproject.com/"
+                  >Django</a
+                >
+                <br />
+                Libraries:
+                <a target="_blank" href="https://getbootstrap.com/"
+                  >Bootstrap</a
+                >
+                <br />
+                Graphics:
+                <a target="_blank" href="https://inkscape.org/">Inkscape</a>
+                <br />
+                API:
+                <a target="_blank" href="https://unsplash.com">Unsplash</a>
+                <br />
+                Other:
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Linux"
+                  >Linux</a
+                >
+                <a target="_blank" href="https://fontawesome.com/"
+                  >Font Awesome
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- STLB -->
+
+        <div
+          class="project-container"
+          id="stlb"
+          style="background-color: #eb7260"
+        >
+          <img
+            class="project-image"
+            src="./resources/images/project-images/stlb/stlb.png"
+          />
+
+          <p>
+            <a
+              class="project-button"
+              data-toggle="collapse"
+              href="#collapseSTLB"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              Smash The Like Button
+            </a>
+          </p>
+          <div class="collapse" id="collapseSTLB">
+            <div class="card card-body project-description">
+              <p>
+                This website was my first attempt at self taught website
+                creation and web design. It was created after taking an
+                environmental science class where the professor told us that
+                there was not much we could do as individuals on a large scale
+                regarding world problems. I took this to heart and thought, "Why
+                not?". So I made this website that was a way for people to
+                promote their YouTube Channels modeled after
+                http://www.milliondollarhomepage.com/ - an old website that
+                really highlights the advertising power of the internet. The
+                intention was to give away profits at the end of the month to a
+                different charity.
+              </p>
+              <p>
+                Stack: HTML, CSS, JavaScript, Python
+                <br />
+                Frameworks:
+                <a target="_blank" href="https://www.djangoproject.com/"
+                  >Django</a
+                >
+                <br />
+                Libraries:
+                <a target="_blank" href="https://getbootstrap.com/"
+                  >Bootstrap</a
+                >
+                <br />
+                Graphics:
+                <a target="_blank" href="https://www.gimp.org/">GIMP</a>
+                <br />
+                API: <a target="_blank" href="https://stripe.com">Stripe</a>
+                <br />
+                Other:
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Linux"
+                  >Linux</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Romordium -->
+
+        <div
+          class="project-container"
+          id="romordium"
+          style="background-color: #0084ff"
+        >
+          <img
+            class="project-image"
+            src="./resources/images/project-images/romordium/romordium.png"
+          />
+          <a href="http://m.me/romordium" target="_blank "
+            ><i class="fab fa-facebook-messenger project-link"></i
+          ></a>
+
+          <p>
+            <a
+              class="project-button"
+              data-toggle="collapse"
+              href="#collapseRomordium"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              Romordium
+            </a>
+          </p>
+          <div class="collapse" id="collapseRomordium">
+            <div class="card card-body project-description">
+              <p>
+                Romordium is a facebook messenger bot that I made as a sample
+                restaurant bot. It was made as a way to allow it's users to see
+                many aspects of a mock restaurant such as its opening hours,
+                menu, store locations, and general restaurant information.
+              </p>
+              <p>
+                Stack: Python
+                <br />
+                Frameworks:
+                <a target="_blank" href="https://flask.palletsprojects.com/"
+                  >Flask</a
+                >
+                <br />
+                API:
+                <a
+                  target="_blank"
+                  href="https://developers.facebook.com/docs/messenger-platform/"
+                  >Facebook Messenger</a
+                >
+                <br />
+                Other:
+                <a target="_blank" href="https://www.heroku.com/">Heroku</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data Grabber -->
+
+        <div
+          class="project-container"
+          id="data-grabber"
+          style="background-color: #272b35"
+        >
+          <img
+            class="project-image"
+            src="./resources/images/project-images/data_grabber/data-grabber.png"
+          />
+
+          <p>
+            <a
+              class="project-button"
+              data-toggle="collapse"
+              href="#collapseDataGrabber"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              Data Grabber
+            </a>
+          </p>
+          <div class="collapse" id="collapseDataGrabber">
+            <div class="card card-body project-description">
+              <p>
+                Data Grabber is a tool I developed as freelance work for
+                <a target="_blank" href="https://allgreenrecycling.com/"
+                  >All Green Recycling</a
+                >
+                while trying to gain more experience working in my filed as a
+                professional. The tool is intended as a way to quickly grab
+                hardware information from a variety of computers with the help
+                of the Linux kernel. The program runs from a persistent live
+                <a target="_blank" href="https://www.linuxmint.com/"
+                  >Linux Mint</a
+                >
+                installation on a usb drive, which was also configured by me.
+                The operating system is also configured for the automatic
+                connection of wireless networks made to work on an array of
+                wireless cards.
+              </p>
+              <p>
+                Stack: Python, Bash
+                <br />
+                Libraries:
+                <a
+                  target="_blank"
+                  href="https://pypi.org/project/terminaltables/"
+                  >terminaltables</a
+                >,
+                <a
+                  target="_blank"
+                  href="https://pypi.org/project/mysql-connector-python/"
+                  >mysql-connector-python</a
+                >,
+                <a
+                  target="_blank"
+                  href="https://docs.python.org/3/library/xml.etree.elementtree.html"
+                  >python-ElementTree</a
+                >
+                <br />
+                Others:
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Linux"
+                  >Linux</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pappel -->
+        <div
+          class="project-container"
+          id="pappel"
+          style="background-color: #32abdd"
+        >
+          <img
+            class="project-image"
+            src="./resources/images/project-images/pappel/pappel_preview.png"
+          />
+          <a href="https://github.com/AlfredoSequeida/Pappel" target="_blank "
+            ><i class="fas fa-code project-link"></i
+          ></a>
+
+          <p>
+            <a
+              class="project-button"
+              data-toggle="collapse"
+              href="#collapsePappel"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              Pappel
+            </a>
+          </p>
+          <div class="collapse" id="collapsePappel">
+            <div class="card card-body project-description">
+              <p>
+                An open source modular note taking platform that I created after
+                frustration of not being able to find any native Linux
+                applications that fit my needs when taking notes for class
+                rapidly and effectively. It is catered to power users and
+                individuals alike.
+              </p>
+              <p>
+                Stack: Java, JavaScript, Bash
+                <br />
+                Libraries:
+                <a target="_blank" href="https://prismjs.com/">PrismJS</a>,
+                <a
+                  target="_blank"
+                  href="https://sourceforge.net/p/mvcframework/discussion/markdown_syntax"
+                  >Markdown4j</a
+                >,
+                <a
+                  target="_blank"
+                  href="https://github.com/controlsfx/controlsfx"
+                  >ControlsFX</a
+                >
+                <br />
+                API:
+                <a
+                  target="_blank"
+                  href="https://www.dropbox.com/developers/documentation/http/documentation"
+                  >DropBox</a
+                >
+                <br />
+                Others:
+                <a target="_blank" href="https://phantomjs.org/">PhantomJS</a>,
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Linux"
+                  >Linux</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js "
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+      crossorigin="anonymous "
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js "
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+      crossorigin="anonymous "
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js "
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+      crossorigin="anonymous "
+    ></script>
+  </body>
+</html>
