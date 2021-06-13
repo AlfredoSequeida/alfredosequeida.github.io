@@ -7,6 +7,34 @@ body{
   background-color: white;
 }
 
+body.dark-theme{
+  background-color: #121212;
+  color: #fff
+}
+
+body.dark-theme i{
+  color: #fff;
+}
+
+.dark-toggle-desktop{
+  position: fixed;
+  top:0;
+}
+
+.dark-toggle-mobile{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#light{
+  display: none;
+}
+
+#light-mobile{
+  display: none;
+}
+
 .side-container{
   position: fixed;
   top: 25%;
